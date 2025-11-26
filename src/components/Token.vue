@@ -7,7 +7,7 @@ interface Props {
   precision?: number;
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   showEmbedding: false,
   precision: 2,
 });
